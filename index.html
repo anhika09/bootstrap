@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body class="bg-light">
+   <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-4">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="#">
+            <span class="text-primary">EDU</span><span class="text-white">PORTAL</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNav">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Dashboard</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Courses</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Schedules</a>
+                </li>
+                
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="accountDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Account
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-end shadow" aria-labelledby="accountDropdown">
+                        <li><a class="dropdown-item" href="#">My Profile</a></li>
+                        <li><a class="dropdown-item" href="#">Settings</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item text-danger" href="#">Logout</a></li>
+                    </ul>
+                </li>
+                
+            </ul>
+        </div>
+        
+    </div>
+</nav>
+    <main class="container my-5">
+        <section class="intro card border-0 shadow-sm p-4 p-md-5 mb-5 rounded-4">
+            <div class="card-body">
+                <h2 class="fw-bold mb-3">Welcome back, Academic Developer!</h2>
+                <p class="text-muted fs-5 mb-0">This reference implementation demonstrates a fully responsive dashboard
+                    using the</p>
+                <p class="text-muted fs-5 mb-4">Bootstrap 5.3 grid layout, advanced system forms, panels (cards), and
+                    navigation bars.</p>
+                <div class="d-flex gap-2">
+                    <button type="button" class="btn btn-primary">View Syllabus</button>
+                    <button type="button" class="btn btn-outline-secondary">Quick Start</button>
+                </div>
+            </div>
+        </section>
+        <section class="row g-4">
+            <div class="col-lg-4 col-md-12">
+                <div class="card c1 h-100 border-0 shadow-sm">
+                    <div class="card-header bg-primary text-white fw-bold py-3 border-0">
+                        Frontend Engineering
+                    </div>
+                    <div class="card-body d-flex flex-column">
+                        <figure class="mb-0 h-100">
+                            <blockquote class="blockquote d-flex flex-column h-100 mb-0">
+                                <h3 class="fs-5 fw-bold">Bootstrap 5 Component Mastery</h3>
+                                <p class="fs-6 text-muted mb-0">Learn to master responsive utilities, grid breakdowns,
+                                </p>
+                                <p class="fs-6 text-muted mb-0">flex layout mapping, and unified CSS variable</p>
+                                <p class="fs-6 text-muted">customizations.</p>
+                                <div class="mt-auto pt-3">
+                                    <div class="d-flex justify-content-between mb-1">
+                                        <h5 class="fs-6 mb-0">Progress</h5>
+                                        <span class="fs-6">25%</span>
+                                    </div>
+                                    <div class="progress" role="progressbar" aria-label="Success example"
+                                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                        <div class="progress-bar bg-success" style="width: 25%"></div>
+                                    </div>
+                                    <button type="button" class="btn btn-outline-primary w-100">Resume Module</button>
+                                </div>
+                            </blockquote>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-12">
+                <div class="card c2 h-100 border-0 shadow-sm">
+                    <div class="card-header bg-warning fw-bold py-3 border-0">
+                        Upcoming Deadlines
+                    </div>
+                    <div class="card-body d-flex flex-column">
+                        <figure class="mb-0 h-100">
+                            <blockquote class="blockquote d-flex flex-column h-100 mb-0">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div>
+                                        <h3 class="fs-6 fw-bold mb-0">Grid System Layout Lab</h3>
+                                        <p class="fs-6 text-muted mb-0">Due in 2 days</p>
+                                    </div>
+                                    <span class="badge rounded-pill text-bg-danger">High</span>
+                                </div>
+                                <hr>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div>
+                                        <h3 class="fs-6 fw-bold mb-0">Form Validation Hook</h3>
+                                        <p class="fs-6 text-muted mb-0">Due in 5 days</p>
+                                    </div>
+                                    <span class="badge rounded-pill text-bg-secondary">Medium</span>
+                                </div>
+                                <hr>
+                                <div class="d-flex justify-content-between align-items-center mb-3">
+                                    <div>
+                                        <h3 class="fs-6 fw-bold mb-0">Accessible Navbar Audit</h3>
+                                        <p class="fs-6 text-muted mb-0">Due next week</p>
+                                    </div>
+                                    <span class="badge rounded-pill text-bg-info text-white">Low</span>
+                                </div>
+                                <button type="button" class="btn btn-dark w-100 mt-auto">View All Tasks</button>
+                            </blockquote>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-12">
+                <div class="card c3 h-100 border-0 shadow-sm">
+                    <div class="card-header bg-dark text-white fw-bold py-3 border-0">
+                        Academic Overview
+                    </div>
+                    <div class="card-body d-flex flex-column">
+                        <figure class="mb-0 h-100">
+                            <blockquote class="blockquote d-flex flex-column h-100 mb-0">
+                                <div class="row g-3 mb-4">
+                                    <div class="col-6">
+                                        <div class="card h-100 text-center border-0 bg-light p-3">
+                                            <h2 class="fw-bold text-primary mb-0">4.8</h2>
+                                            <small class="text-uppercase fw-bold text-muted"
+                                                style="font-size: 0.7rem;">Current GPA</small>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="card h-100 text-center border-0 bg-light p-3">
+                                            <h2 class="fw-bold text-success mb-0">12</h2>
+                                            <small class="text-uppercase fw-bold text-muted"
+                                                style="font-size: 0.7rem;">Passed</small>
+                                        </div>
+                                    </div>
+                                    <!-- Виправлено злиплі теги <h2class= та <smallclass= -->
+                                    <div class="col-6">
+                                        <div class="card h-100 text-center border-0 bg-light p-3">
+                                            <h2 class="fw-bold text-warning mb-0">2</h2>
+                                            <small class="text-uppercase fw-bold text-muted"
+                                                style="font-size: 0.7rem;">Active</small>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="card h-100 text-center border-0 bg-light p-3">
+                                            <h2 class="fw-bold text-info mb-0">98%</h2>
+                                            <small class="text-uppercase fw-bold text-muted"
+                                                style="font-size: 0.7rem;">Attendance</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button type="button" class="btn btn-outline-dark w-100 mt-auto">Download
+                                    Transcript</button>
+                            </blockquote>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
