@@ -1,0 +1,12 @@
+body {
+    background-color: #f4f6f9;
+}
+
+.card:hover {
+    border: 2px solid #6b90c8 !important; 
+    cursor: pointer; 
+}
+
+.intro h2 {
+    color: #2c3e50;
+}
